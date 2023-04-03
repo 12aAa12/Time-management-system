@@ -1,16 +1,8 @@
 import javax.swing.*;
 public class home extends javax.swing.JFrame {
-
-    /**
-     * Creates new form home
-     */
     public home() {
         initComponents();
     }
-
-    
-   
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -59,9 +51,9 @@ public class home extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 102));
-        jPanel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jPanel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
 
-        MAINPAGE.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        MAINPAGE.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         MAINPAGE.setText("Main page");
         MAINPAGE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -69,10 +61,10 @@ public class home extends javax.swing.JFrame {
             }
         });
 
-        TEACHERS.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        TEACHERS.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         TEACHERS.setText("TEACHERS");
 
-        COURSE.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        COURSE.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         COURSE.setText("COURSE");
         COURSE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,7 +72,7 @@ public class home extends javax.swing.JFrame {
             }
         });
 
-        DEPARTMENT.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        DEPARTMENT.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         DEPARTMENT.setText("DEPARTMENT");
         DEPARTMENT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -88,16 +80,16 @@ public class home extends javax.swing.JFrame {
             }
         });
 
-        ROOMS.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        ROOMS.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         ROOMS.setText("ROOMS");
 
-        jButton6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton6.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jButton6.setText("TIME TABLE");
 
-        BATCH.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        BATCH.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         BATCH.setText("BATCH");
 
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jButton1.setText("TIME");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -512,32 +504,20 @@ public class home extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void COURSEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_COURSEActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_COURSEActionPerformed
+    private void COURSEActionPerformed(java.awt.event.ActionEvent evt) {
+    }
 
-    private void MAINPAGEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MAINPAGEActionPerformed
+    private void MAINPAGEActionPerformed(java.awt.event.ActionEvent evt) {
         new MainPage().setVisible(true);
         
-    }//GEN-LAST:event_MAINPAGEActionPerformed
+    }
 
-    private void DEPARTMENTActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DEPARTMENTActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_DEPARTMENTActionPerformed
+    private void DEPARTMENTActionPerformed(java.awt.event.ActionEvent evt) {
+    }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    /**
-     * @param args the command line arguments
-     */
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+    }
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -554,9 +534,9 @@ public class home extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(home.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
+        
 
-        /* Create and display the form */
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new home().setVisible(true);
@@ -564,7 +544,7 @@ public class home extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private javax.swing.JButton BATCH;
     private javax.swing.JButton COURSE;
     private javax.swing.JButton DEPARTMENT;
@@ -607,5 +587,5 @@ public class home extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
-    // End of variables declaration//GEN-END:variables
+    
 }
